@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #505050;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo{
+    line-height: 4em;
+}
+
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links li{
+    padding: 0 1em;
+    line-height: 4em;
+}
